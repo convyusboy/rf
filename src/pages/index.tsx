@@ -37,10 +37,6 @@ const App = () => {
         >
           THE WEDDING OF
         </div>
-        {/*        <div tw="p-5">
-          <img src={ShuangXi} />
-        </div>
-*/}
         <div tw="w-3/5 p-5">
           <img src={NameTagFitri} />
         </div>
@@ -69,12 +65,12 @@ const App = () => {
       </div>
       <div
         tw="py-24 relative"
-        // style={{
-        //   color: '#2a3b72',
+        style={{
+          color: '#2a3b72',
         //   background: `url('/images/shuangxi.png')`,
         //   backgroundSize: 'cover',
         //   backgroundPosition: 'center center'
-        // }}
+        }}
       >
         <div tw="absolute left-0 right-0 h-10" style={{ top: -40 }} />
         <div tw="absolute -top-36 -left-16 w-48 h-48 transform" />
