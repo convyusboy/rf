@@ -30,7 +30,6 @@ const App = () => {
           tw="font-poppin font-bold text-center"
           style={{
             marginTop: '5rem',
-            marginBottom: '5rem',
             fontSize: '1rem',
             color: '#2a3b72'
           }}
@@ -76,14 +75,14 @@ const App = () => {
         <div tw="absolute -top-36 -left-16 w-48 h-48 transform" />
         <div className="container" tw="mx-auto items-center pb-12 px-4 sm:px-0">
           <div
-            tw="text-4xl sm:text-5xl text-gold-900 text-center mb-12"
+            tw="font-poppin text-4xl sm:text-5xl text-gold-900 text-center mb-12"
             style={{ color: '#2a3b72' }}
           >
             Jadwal Acara
           </div>
 
           <div
-            tw="text-center"
+            tw="text-center font-poppin"
             style={{
               fontSize: 12
             }}
@@ -96,7 +95,7 @@ const App = () => {
             link di bawah ini:
           </div>
           <div tw="grid grid-cols-2 gap-4 text-center font-poppin py-10">
-            <div tw="col-span-full sm:col-span-1 flex flex-col items-center justify-center text-3xl tracking-widest font-bold">
+            <div tw="col-span-full sm:col-span-1 flex flex-col items-center justify-center text-3xl tracking-widest font-poppin font-bold">
               MINGGU
               <br />
               21
@@ -133,7 +132,7 @@ const App = () => {
       <div tw="py-24 relative bg-white">
         <div className="container" tw="mx-auto items-center sm:px-0 relative">
           <div
-            tw="text-4xl sm:text-5xl text-gold-900 text-center mb-12"
+            tw="font-poppin text-4xl sm:text-5xl text-gold-900 text-center mb-12"
             style={{ color: '#2a3b72' }}
           >
             Our Journey
@@ -245,7 +244,7 @@ const App = () => {
           </div>*/}
         </div>
       </div>
-      <div tw="py-24 relative" style={{ color: '#2a3b72' }}>
+      <div tw="py-24 font-poppin relative" style={{ color: '#2a3b72' }}>
         <div tw="absolute -top-24 -left-16 w-48 h-48 transform" />
         <div
           className="container"
