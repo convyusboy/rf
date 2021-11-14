@@ -3,7 +3,7 @@ import tw from 'twin.macro'
 import { Logo, Layout, Button, Link } from '../components'
 import GroomsBride from '../images/groomsbride.png'
 import ShuangXi from '../images/shuangxi.png'
-import QRImage from '../images/qrocbc.png'
+import QRImage from '../images/qrbca.jpg'
 import QRImage2 from '../images/qrbca2.png'
 import Paynow from '../images/paynow.jpg'
 import Whatsapp from '../images/whatsapp.png'
@@ -19,9 +19,15 @@ const App = () => {
       <div
         className="container"
         tw="mx-auto flex flex-col items-center relative"
+        style={{
+          color: '#2a3b72',
+          background: `url('/images/shuangxi.png')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center'
+        }}
       >
         <div
-          tw="font-serif font-bold text-center"
+          tw="font-poppin font-bold text-center"
           style={{
             marginTop: '5rem',
             marginBottom: '5rem',
@@ -63,12 +69,12 @@ const App = () => {
       </div>
       <div
         tw="py-24 relative"
-        style={{
-          color: '#2a3b72',
-          background: `url('/images/shuangxi.png')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center center'
-        }}
+        // style={{
+        //   color: '#2a3b72',
+        //   background: `url('/images/shuangxi.png')`,
+        //   backgroundSize: 'cover',
+        //   backgroundPosition: 'center center'
+        // }}
       >
         <div tw="absolute left-0 right-0 h-10" style={{ top: -40 }} />
         <div tw="absolute -top-36 -left-16 w-48 h-48 transform" />
@@ -137,7 +143,7 @@ const App = () => {
             Our Journey
           </div>
           <div
-            tw="mx-auto w-full leading-loose font-sans p-1"
+            tw="mx-auto w-full leading-loose font-poppin p-1"
             style={{ maxWidth: 800 }}
           >
             <img src={Journey} tw="w-full" />
@@ -260,13 +266,13 @@ const App = () => {
           {showGiving ? (
             <>
               <div
-                tw="mx-auto w-full p-4 leading-loose font-sans items-center justify-center text-center"
+                tw="mx-auto w-full p-4 leading-loose font-poppin items-center justify-center text-center"
                 style={{ maxWidth: 640 }}
               >
                 <div tw="">Transfer via BCA</div>
                 <div tw="font-bold text-2xl">0342119075</div>
                 <div tw="mb-4 font-bold">Fitri Lin</div>
-                <img src={QRImage2} tw="mx-auto w-80 mb-16 rounded-lg" />
+                <img src={QRImage} tw="mx-auto w-80 mb-16 rounded-lg" />
 
                 <div tw="">Transfer via BCA</div>
                 <div tw="font-bold text-2xl">2860111236</div>
@@ -285,7 +291,7 @@ const App = () => {
         </div>
       </div>
       <div
-        tw="py-6 relative bg-white text-center font-sans"
+        tw="py-6 relative bg-white text-center font-poppin"
         style={{ color: '#2a3b72' }}
       >
         <div tw="w-2/5 pb-6 items-center relative justify-center mx-auto">
