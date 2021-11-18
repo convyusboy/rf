@@ -1,6 +1,7 @@
 import React from 'react'
 import tw from 'twin.macro'
 import { Logo, Layout, Button, Link } from '../components'
+import GroomsBrideFamily from '../images/groomsbridefamily.jpg'
 import GroomsBride from '../images/groomsbride.png'
 import ShuangXi from '../images/shuangxi.png'
 import QRImage from '../images/qrbca.jpg'
@@ -59,16 +60,13 @@ const App = () => {
       </div>
       <div tw="relative bg-white mx-auto flex flex-col items-center relative">
         <div tw="w-full">
-          <img src={GroomsBride} />
+          <img src={GroomsBrideFamily} />
         </div>
       </div>
       <div
         tw="py-24 relative"
         style={{
-          color: '#2a3b72',
-        //   background: `url('/images/shuangxi.png')`,
-        //   backgroundSize: 'cover',
-        //   backgroundPosition: 'center center'
+          color: '#2a3b72'
         }}
       >
         <div tw="absolute left-0 right-0 h-10" style={{ top: -40 }} />
@@ -127,6 +125,11 @@ const App = () => {
             </div>
             <div tw="col-span-full sm:col-span-1"></div>
           </div>
+        </div>
+      </div>
+      <div tw="relative bg-white mx-auto flex flex-col items-center relative">
+        <div tw="w-full">
+          <img src={GroomsBride} />
         </div>
       </div>
       <div tw="py-24 relative bg-white">
